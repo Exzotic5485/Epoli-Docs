@@ -1,0 +1,9 @@
+site_name: Epoli Documentation
+nav:
+    - Home: index.md
+
+theme: readthedocs
+markdown_extensions:
+    - toc:
+        separator: "_"
+    - admonition
