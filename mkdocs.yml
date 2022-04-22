@@ -1,8 +1,30 @@
 site_name: Epoli Documentation
-nav:
-    - Home: index.md
-
-theme: readthedocs
+nav: 
+   - Home: index.md
+   - Power Types:
+      - Redstone: powertypes/redstone.md
+      - Prevent Soulsand Slowness: powertypes/prevent_soulsand_slowness.md
+   - Entity Actions:
+      - Teleport To Spawn: entityactions/teleport_to_spawn.md
+      - Teleport: entityactions/teleport.md
+      - Location:
+         - Save Location: entityactions/save_location.md
+         - Teleport Location: entityactions/teleport_location.md
+theme: 
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
 markdown_extensions:
     - toc:
         separator: "_"
