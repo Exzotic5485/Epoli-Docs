@@ -4,7 +4,7 @@ nav:
    - Power Types:
       - Redstone: powertypes/redstone.md
       - Prevent Soulsand Slowness: powertypes/prevent_soulsand_slowness.md
-      - Action On Experience Gain: powertypes/action_on_experience_gain.md
+      - Action On Experience Gain: powertypes/action_on_xp_gain.md
    - Entity Actions:
       - Teleport To Spawn: entityactions/teleport_to_spawn.md
       - Teleport: entityactions/teleport.md
