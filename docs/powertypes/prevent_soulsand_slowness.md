@@ -2,7 +2,7 @@
 title: Prevent Soulsand Slowness (Power Type)
 date: 22-04-2022
 ---
-# Redstone
+# Prevent Soulsand Slowness
 _Power Type_
 
 This will power will make the player not get affected by soulsand/soul soil block.
