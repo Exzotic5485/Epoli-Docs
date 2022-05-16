@@ -10,11 +10,15 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 
 * [Redstone](powertypes/redstone.md)
 * [Prevent Soulsand Slowness](powertypes/prevent_soulsand_slowness.md)
+* [Action On Xp Gain](powertypes/action_on_xp_gain.md)
+* [Action On Trigger](powertypes/action_on_trigger.md)
+* [Passive](powertypes/passive.md)
+* [Action On Death](powertypes/action_on_death.md)
 
 ## Entity Actions
 Entity Action Types operate on an Entity. These are available to power/action types that provides an `entity_action` object field.
 
-**List Of Power Types:**
+**List Of Entity Actions:**
 
 * [Teleport To Spawn](entityactions/teleport_to_spawn.md)
 * [Teleport](entityactions/teleport.md)
