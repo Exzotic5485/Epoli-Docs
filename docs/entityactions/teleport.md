@@ -2,7 +2,7 @@
 title: Teleport (Entity Action Type)
 date: 22-04-2022
 ---
-# Redstone
+# Teleport
 _Entity Action Type_
 
 This is used to teleport without having to use `apoli:execute_command`.

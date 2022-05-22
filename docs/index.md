@@ -14,6 +14,8 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Action On Trigger](powertypes/action_on_trigger.md)
 * [Passive](powertypes/passive.md)
 * [Action On Death](powertypes/action_on_death.md)
+* [Damage Limit](powertypes/damage_limit.md)
+* [Multiply Bow Speed](powertypes/multiply_bow_speed.md)
 
 ## Entity Actions
 Entity Action Types operate on an Entity. These are available to power/action types that provides an `entity_action` object field.
@@ -24,3 +26,11 @@ Entity Action Types operate on an Entity. These are available to power/action ty
 * [Teleport](entityactions/teleport.md)
 * [Save Location](entityactions/save_location.md)
 * [Teleport Location](entityactions/teleport_location.md)
+* [System Toast](entityactions/system_toast.md)
+
+## Item Actions
+Item Action Types operate on a stack of items. These are available to power/action types that provides an item_action object field.
+
+**List Of Item Actions:**
+
+* [Trigger Item Cooldown](itemactions/trigger_item_cooldown.md)
