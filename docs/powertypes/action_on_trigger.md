@@ -15,7 +15,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | | The action to execute on the player.
 `objective` | [String](string.md) | | The name of the scoreboard that triggers
-`operation` | [Array]() of [Strings]() | | Which type of trigger to activate the entity action for. Accepts: `"add"`, `"set"`, `"simple"`.
+`operation` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Strings](https://origins.readthedocs.io/en/latest/types/data_types/string/) | | Which type of trigger to activate the entity action for. Accepts: `"add"`, `"set"`, `"simple"`.
 `comparison` | [Comparison](comparison.md) | `">="` | How the value of the power that will be evaluated should be compared to the specified value.
 `compare_to` | [Integer](integer.md) | `0` | The value to compare the value of the power that will be evaluated to.
 
